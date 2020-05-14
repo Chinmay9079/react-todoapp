@@ -77,9 +77,9 @@ input[type="text"]{
   border-radius: 0 25px 25px 0;
   height: 30px;
   width: 70px;
-   border: none;
+   border: none;s
     outline: none;
-    cursor: pointer;
+    cursor:pointer;
     background: #E44D51;
-    color: #fff;
+    color:#fff;
 }
