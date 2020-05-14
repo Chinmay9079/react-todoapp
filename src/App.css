@@ -1,38 +1,85 @@
-.App {
+body{
+  background:#000;
+  font-size: 20px;
+  color: #fff;
+}
+
+.logo{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+.app-title{
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  text-align: center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  width: 100%;
+}
+input{
+  text-align: center;
+  margin-top: 5%;
+ 
+  transition: 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input[type="text"]{
+  background: #fff;
+  width: 340px;;
+  height: 50px;
+  border: none;
+  outline:none;
+  padding: 0 25px;
+  border-radius:  25px 0 0 25px ;
+ 
+  
+}
+.list{
+  text-align: center;
   }
+.list ul{
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-add{
+  margin: 10px;
+  position: relative;
+  border-radius: 0 25px 25px 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #E44D51;
+    color: #fff;
+    left: -10px;
+}
+.button-add:hover{
+  background:#ffc107;
+  color: #fff;
+
+}
+.btn:hover{
+  background:#ffc107;
+  color: #fff;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  margin: 20px;
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  height: 30px;
+  width: 70px;
+   border: none;
+    outline: none;
+    cursor: pointer;
+    background: #E44D51;
+    color: #fff;
 }
